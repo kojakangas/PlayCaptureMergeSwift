@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A380C31E22D211001109B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A380C21E22D211001109B7 /* AppDelegate.swift */; };
+		A4A380C51E22D211001109B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A380C41E22D211001109B7 /* ViewController.swift */; };
+		A4A380C81E22D211001109B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A380C61E22D211001109B7 /* Main.storyboard */; };
+		A4A380CA1E22D211001109B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A380C91E22D211001109B7 /* Assets.xcassets */; };
+		A4A380CD1E22D211001109B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A380CB1E22D211001109B7 /* LaunchScreen.storyboard */; };
+		A4A380D61E22D2C7001109B7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A380D51E22D2C7001109B7 /* AssetsLibrary.framework */; };
+		A4A380D81E22D2D2001109B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A380D71E22D2D2001109B7 /* AVFoundation.framework */; };
+		A4A380DA1E22D2F1001109B7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A380D91E22D2F1001109B7 /* CoreMedia.framework */; };
+		A4A380DC1E22D2FF001109B7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A380DB1E22D2FF001109B7 /* MediaPlayer.framework */; };
+		A4A380DE1E22D30C001109B7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A380DD1E22D30C001109B7 /* MobileCoreServices.framework */; };
+		A4A380E01E22D31C001109B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A380DF1E22D31C001109B7 /* QuartzCore.framework */; };
+		A4A380E21E22E108001109B7 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A380E11E22E108001109B7 /* PlayVideoViewController.swift */; };
+		A4A380E41E22E141001109B7 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A380E31E22E141001109B7 /* RecordVideoViewController.swift */; };
+		A4A380E61E22E171001109B7 /* MergeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A380E51E22E171001109B7 /* MergeVideoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4A380BF1E22D211001109B7 /* VideoPlayRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A380C21E22D211001109B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4A380C41E22D211001109B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4A380C71E22D211001109B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4A380C91E22D211001109B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4A380CC1E22D211001109B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4A380CE1E22D211001109B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A380D51E22D2C7001109B7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A4A380D71E22D2D2001109B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4A380D91E22D2F1001109B7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A4A380DB1E22D2FF001109B7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A4A380DD1E22D30C001109B7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A4A380DF1E22D31C001109B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4A380E11E22E108001109B7 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		A4A380E31E22E141001109B7 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
+		A4A380E51E22E171001109B7 /* MergeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeVideoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A380BC1E22D210001109B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A380E01E22D31C001109B7 /* QuartzCore.framework in Frameworks */,
+				A4A380DE1E22D30C001109B7 /* MobileCoreServices.framework in Frameworks */,
+				A4A380DC1E22D2FF001109B7 /* MediaPlayer.framework in Frameworks */,
+				A4A380DA1E22D2F1001109B7 /* CoreMedia.framework in Frameworks */,
+				A4A380D81E22D2D2001109B7 /* AVFoundation.framework in Frameworks */,
+				A4A380D61E22D2C7001109B7 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A380B61E22D210001109B7 = {
+			isa = PBXGroup;
+			children = (
+				A4A380C11E22D211001109B7 /* VideoPlayRecord */,
+				A4A380C01E22D211001109B7 /* Products */,
+				A4A380D41E22D2C7001109B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A380C01E22D211001109B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A380BF1E22D211001109B7 /* VideoPlayRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A380C11E22D211001109B7 /* VideoPlayRecord */ = {
+			isa = PBXGroup;
+			children = (
+				A4A380C21E22D211001109B7 /* AppDelegate.swift */,
+				A4A380C41E22D211001109B7 /* ViewController.swift */,
+				A4A380C61E22D211001109B7 /* Main.storyboard */,
+				A4A380E11E22E108001109B7 /* PlayVideoViewController.swift */,
+				A4A380E31E22E141001109B7 /* RecordVideoViewController.swift */,
+				A4A380E51E22E171001109B7 /* MergeVideoViewController.swift */,
+				A4A380C91E22D211001109B7 /* Assets.xcassets */,
+				A4A380CB1E22D211001109B7 /* LaunchScreen.storyboard */,
+				A4A380CE1E22D211001109B7 /* Info.plist */,
+			);
+			path = VideoPlayRecord;
+			sourceTree = "<group>";
+		};
+		A4A380D41E22D2C7001109B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A380DF1E22D31C001109B7 /* QuartzCore.framework */,
+				A4A380DD1E22D30C001109B7 /* MobileCoreServices.framework */,
+				A4A380DB1E22D2FF001109B7 /* MediaPlayer.framework */,
+				A4A380D91E22D2F1001109B7 /* CoreMedia.framework */,
+				A4A380D71E22D2D2001109B7 /* AVFoundation.framework */,
+				A4A380D51E22D2C7001109B7 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4A380BE1E22D210001109B7 /* VideoPlayRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A380D11E22D211001109B7 /* Build configuration list for PBXNativeTarget "VideoPlayRecord" */;
+			buildPhases = (
+				A4A380BB1E22D210001109B7 /* Sources */,
+				A4A380BC1E22D210001109B7 /* Frameworks */,
+				A4A380BD1E22D210001109B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPlayRecord;
+			productName = VideoPlayRecord;
+			productReference = A4A380BF1E22D211001109B7 /* VideoPlayRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A380B71E22D210001109B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KOemxe;
+				TargetAttributes = {
+					A4A380BE1E22D210001109B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99H65TKYZK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4A380BA1E22D210001109B7 /* Build configuration list for PBXProject "VideoPlayRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A380B61E22D210001109B7;
+			productRefGroup = A4A380C01E22D211001109B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A380BE1E22D210001109B7 /* VideoPlayRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A380BD1E22D210001109B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A380CD1E22D211001109B7 /* LaunchScreen.storyboard in Resources */,
+				A4A380CA1E22D211001109B7 /* Assets.xcassets in Resources */,
+				A4A380C81E22D211001109B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A380BB1E22D210001109B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A380C51E22D211001109B7 /* ViewController.swift in Sources */,
+				A4A380E61E22E171001109B7 /* MergeVideoViewController.swift in Sources */,
+				A4A380C31E22D211001109B7 /* AppDelegate.swift in Sources */,
+				A4A380E21E22E108001109B7 /* PlayVideoViewController.swift in Sources */,
+				A4A380E41E22E141001109B7 /* RecordVideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4A380C61E22D211001109B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A380C71E22D211001109B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4A380CB1E22D211001109B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A380CC1E22D211001109B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4A380CF1E22D211001109B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4A380D01E22D211001109B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4A380D21E22D211001109B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99H65TKYZK;
+				INFOPLIST_FILE = VideoPlayRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koemxe.VideoPlayRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4A380D31E22D211001109B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99H65TKYZK;
+				INFOPLIST_FILE = VideoPlayRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koemxe.VideoPlayRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A380BA1E22D210001109B7 /* Build configuration list for PBXProject "VideoPlayRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A380CF1E22D211001109B7 /* Debug */,
+				A4A380D01E22D211001109B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A380D11E22D211001109B7 /* Build configuration list for PBXNativeTarget "VideoPlayRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A380D21E22D211001109B7 /* Debug */,
+				A4A380D31E22D211001109B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A380B71E22D210001109B7 /* Project object */;
+}
